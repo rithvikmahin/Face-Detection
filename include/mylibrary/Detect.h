@@ -7,9 +7,10 @@
 class Detect {
   public:
 	  void LoadCascades();
-    void VideoStream();
+    void OpenVideoStream();
 	private:
     cv::CascadeClassifier face_cascade;
+    void DetectFace(cv::Mat frame);
 };
 
 
