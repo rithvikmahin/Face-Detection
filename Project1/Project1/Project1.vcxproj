@@ -87,7 +87,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\include;C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\include\mylibrary;C:\Users\Rithvik\Desktop\Test\Cinder\include;C:\Users\Rithvik\Desktop\Test\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Rithvik\CLionProjects\Cinder\my-projects\snake\cmake-build-debug\_deps\catch2-src\single_include;C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\include;C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\include\mylibrary;C:\Users\Rithvik\Desktop\Test\Cinder\include;C:\Users\Rithvik\Desktop\Test\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>

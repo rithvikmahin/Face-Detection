@@ -1,10 +1,8 @@
 #include "Detect.h"
 #include "opencv2/objdetect.hpp"
 #include "opencv2/opencv.hpp"
-#include "cinder/CinderImGui.h"
 
 void Detect::LoadCascades() {
-  ImGui::Initialize();
   std::string face_cascade_path = "../../haarcascades/haarcascade_frontalface_alt2.xml";
   if (!face_cascade.load(face_cascade_path)) {
     std::cout << "Could not find the haarcascade! Please place the 'haarcascade_frontalface_alt2.xml' file in the haarcascades folder." << std::endl;
