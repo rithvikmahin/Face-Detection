@@ -5,31 +5,34 @@
 #include "cinder/gl/gl.h"
 #include "Detect.h"
 #include "cinder/CinderImGui.h"
-#include "string"
 
 namespace myapp {
 
 using cinder::app::KeyEvent;
-const int window_size = 500;
-const int button_size = 120;
+const int kWindowSize = 500;
+const int kButtonSize = 120;
+Detect detect;
 
 MyApp::MyApp() { }
 
 void MyApp::setup() {
   ImGui::Initialize();
-  cinder::app::setWindowSize(window_size, window_size);
+  cinder::app::setWindowSize(kWindowSize, kWindowSize);
+  detect.LoadCascades();
 }
 
 void MyApp::update() {
-  Detect detect;
   
-  ImGui::SetNextWindowSize(ImVec2(window_size, window_size));
-  ImGui::Begin("Options");
-  ImGui::Text("Detection Options");
+  ImGui::SetNextWindowSize(ImVec2(kWindowSize, kWindowSize));
+  ImGui::Begin("Detection Options");
+  ImGui::Text("Choose a feature to detect.");
 
-  if (ImGui::Button("Face Detection", ImVec2(button_size, button_size))) {
-    detect.LoadCascades();
-    detect.OpenVideoStream();
+  if (ImGui::Button("Face Detection", ImVec2(kButtonSize, kButtonSize))) {
+    detect.OpenVideoStream("Face");
+  }
+
+  if (ImGui::Button("Eye Detection", ImVec2(kButtonSize, kButtonSize))) {
+    detect.OpenVideoStream("Eyes");
   }
 
   ImGui::End();

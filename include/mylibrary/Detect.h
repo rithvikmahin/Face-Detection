@@ -7,10 +7,12 @@
 class Detect {
   public:
 	  void LoadCascades();
-    void OpenVideoStream();
+    void OpenVideoStream(std::string feature);
 	private:
     cv::CascadeClassifier face_cascade;
+    cv::CascadeClassifier eyes_cascade;
     void DetectFace(cv::Mat frame);
+    void DetectEyes(cv::Mat frame);
 };
 
 
