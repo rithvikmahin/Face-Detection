@@ -17,6 +17,14 @@ void Detect::LoadCascades() {
   }
 }
 
+cv::CascadeClassifier Detect::GetFaceCascade() {
+  return face_cascade;
+}
+
+cv::CascadeClassifier Detect::GetEyesCascade() {
+  return eyes_cascade;
+}
+
 void Detect::OpenVideoStream(std::string feature) {
   cv::Mat frame;
   cv::VideoCapture video;
