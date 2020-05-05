@@ -35,6 +35,14 @@ void MyApp::update() {
     detect.OpenVideoStream("Eyes");
   }
 
+  if (ImGui::Button("Nose Detection", ImVec2(kButtonSize, kButtonSize))) {
+    detect.OpenVideoStream("Nose");
+  }
+
+  if (ImGui::Button("Mouth Detection", ImVec2(kButtonSize, kButtonSize))) {
+    detect.OpenVideoStream("Mouth");
+  }
+
   ImGui::End();
 }
 
