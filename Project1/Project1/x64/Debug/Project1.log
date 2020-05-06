@@ -1,281 +1,282 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (FaceDetection.vcxproj, Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  my_app.cc
   Detect.cpp
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(88,30): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(114,61): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(93,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(104,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(133,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(141,53): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(114,42): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(141,43): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(115,66): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(115,40): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(117,59): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(142,61): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(117,40): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(142,42): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(118,65): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(118,38): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(120,96): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(143,51): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(120,47): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(143,41): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(124,54): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(144,59): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(124,30): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(144,40): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(150,46): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(146,110): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(150,29): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(146,58): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(151,47): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(148,39): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(151,30): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(148,29): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(153,63): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(149,40): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(153,44): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(149,30): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(155,60): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(155,53): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(155,43): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(155,35): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(158,61): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(169,61): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(158,42): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(169,42): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(160,58): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(170,66): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(170,40): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(172,59): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(160,41): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(172,40): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(164,56): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(173,65): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(173,38): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(175,96): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(163,79): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(175,47): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(189,53): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(179,54): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(189,43): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(179,30): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(190,61): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(198,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(206,46): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(190,42): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(206,29): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(191,51): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(207,47): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(191,41): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(207,30): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(192,59): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(209,63): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(192,40): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(209,44): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(194,110): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(211,60): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(194,58): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(211,43): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(196,39): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(214,61): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(196,29): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(214,42): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(197,40): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(216,58): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(197,30): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(216,41): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(203,53): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(220,56): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(203,35): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(219,79): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(229,37): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(238,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(246,37): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(229,28): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(246,28): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(230,38): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(247,38): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(230,29): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(247,29): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(232,51): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(249,51): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(232,42): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(249,42): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(233,49): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(250,49): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(233,40): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(250,40): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(234,61): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(251,61): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(234,42): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(251,42): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(235,59): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(252,59): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(235,40): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(252,40): warning C4244: 'initializing': conversion from '_Tp' to 'const float', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(237,107): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(254,107): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(237,56): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(254,56): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(242,52): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(259,52): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(242,34): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\src\Detect.cpp(259,34): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
           with
           [
               _Tp=int
           ]
-  Generating Code...
-  LINK : C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\Project1\x64\Debug\FaceDetect.exe not found or not built by the last incremental link; performing full link
-  Project1.vcxproj -> C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\Project1\x64\Debug\FaceDetect.exe
+  Project1.vcxproj -> C:\Users\Rithvik\Desktop\Test\Cinder\my-projects\final-project-rithvikmahin\Project1\x64\Debug\FaceDetect.lib

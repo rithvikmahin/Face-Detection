@@ -11,6 +11,11 @@ namespace myapp {
 using cinder::app::KeyEvent;
 const int kWindowSize = 500;
 const int kButtonSize = 120;
+const std::string kFaceCascadePath = "../../haarcascades/haarcascade_frontalface_alt2.xml";
+const std::string kEyesCascadePath = "../../haarcascades/haarcascade_eye_tree_eyeglasses.xml";
+const std::string kMouthCascadePath = "../../haarcascades/haarcascade_mcs_mouth.xml";
+const std::string kNoseCascadePath = "../../haarcascades/haarcascade_mcs_nose.xml";
+
 Detect detect;
 
 MyApp::MyApp() { }
@@ -18,7 +23,10 @@ MyApp::MyApp() { }
 void MyApp::setup() {
   ImGui::Initialize();
   cinder::app::setWindowSize(kWindowSize, kWindowSize);
-  detect.LoadCascades();
+  detect.LoadFaceCascade(kFaceCascadePath);
+  detect.LoadEyesCascade(kEyesCascadePath);
+  detect.LoadMouthCascade(kMouthCascadePath);
+  detect.LoadNoseCascade(kNoseCascadePath);
 }
 
 void MyApp::update() {

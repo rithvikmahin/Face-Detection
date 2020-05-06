@@ -12,3 +12,6 @@
 - 4/30 - Rescaled the UI, added a button that links to the face detection part of the app.
 - 5/02 - Updated the UI and added code that allows for basic eye detection. Working on adding more features and more classifiers.
 - 5/04 - Added Google Tests to Visual Studio and wrote the first test.
+- 5/04 - Wrote another test to test video capturing.
+- 5/05 - Created methods to detect the nose and mouth.
+- 5/05 - Added 12 more test cases for loading haarcascades, opening video streams and detecting features.
